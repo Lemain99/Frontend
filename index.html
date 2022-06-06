@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин книг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Магазин книг</h2>
+        <div id="balance-block"> Баланс: <span id="balance-int">ТЕСТ</span> </div>
+    </header>
+    <div class="flex">
+        <main>
+            <form>
+                Цена по возрастанию <button class="btn-sort-price" onclick="Sort()">&darr;</button>
+                <select name="" id="">
+                    <option value="0">Выберите категорию</option>
+                    <option value="1">Детективы</option>
+                    <option value="2">Фэнтези</option>
+                    <option value="3">Романы</option>
+                    <option value="4">Фантастика</option>
+                </select><br><br>
+                <input type="text" name="" id="search-bar" placeholder="Введите название книги" size="100">
+            </form>
+            <div class="flex catalog-block">
+                <!-- <figure>
+                    <img src="img/img1.png">
+                    <h3>НазваниеТЕСТ</h3>
+                    <button class="btn-buy">В корзину</button>
+                    <figcaption>ТЕСТ руб.</figcaption>
+                </figure> -->
+            </div>
+        </main>
+        <aside>
+            <h1>Корзина(ТЕСТ руб.)</h1>
+            <button class="btn-buy-items" onclick="Buy()">Купить</button>
+            <p>Недостаточно средств</p>
+            <!-- <div class="item-to-buy">
+                <img src="img/img1.png">
+                <div class="basket-block">
+                    <h3>НазваниеТЕСТ</h3>
+                    <div class="Int">ТЕСТ шт.</div>
+                    <div class="Price">ТЕСТ руб.</div>
+                    <button class="btn-delete">Удалить</button>
+                </div>
+            </div> -->
+        </aside>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
